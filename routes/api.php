@@ -22,11 +22,11 @@ Route::get('users/authorized', 'App\Http\Controllers\UsersController@isAuthorize
 Route::post('posts/get', 'App\Http\Controllers\PostsController@index');
 Route::get('tags', 'App\Http\Controllers\TagsController@index');
 Route::post('comments', 'App\Http\Controllers\CommentsController@index');
+Route::post('users', 'App\Http\Controllers\UsersController@store');
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('users', 'App\Http\Controllers\UsersController@index');
     Route::get('users/{user}', 'App\Http\Controllers\UsersController@show');
-    Route::post('users', 'App\Http\Controllers\UsersController@store');
     Route::put('users/{user}', 'App\Http\Controllers\UsersController@update');
     Route::delete('users/{user}', 'App\Http\Controllers\UsersController@delete');
     Route::post('users/logout', 'App\Http\Controllers\UsersController@logout');
