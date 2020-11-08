@@ -36,7 +36,7 @@
 
 git clone <br>
 composer install <br>
-mv .env.example .env
-php artisan key:generate
-php artisan migrate
+mv .env.example .env <br>
+php artisan key:generate <br>
+php artisan migrate <br>
 php artisan storage:link
