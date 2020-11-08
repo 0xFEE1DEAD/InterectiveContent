@@ -2,15 +2,15 @@
 
 ## Задачи по БД
 
-:white_check_mark: Связь многие ко многим (tag_post)
-:white_check_mark: Связь один к одному (comment->user)
-:white_check_mark: Связь один ко многим (post->comment)
+:white_check_mark: Связь многие ко многим (tag_post) <br>
+:white_check_mark: Связь один к одному (comment->user)<br>
+:white_check_mark: Связь один ко многим (post->comment)<br>
 :white_check_mark: Миграции
 
 ## Задачи по сценариям интерактивного контента
 
-:white_check_mark: JS фреймоврк с реактивностью (VueJs)
-:white_check_mark: backend фреймоврк laravel 8
+:white_check_mark: JS фреймоврк с реактивностью (VueJs)<br>
+:white_check_mark: backend фреймоврк laravel 8<br>
 
 ## Общие заметки
 ### Роутинг
