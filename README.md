@@ -31,3 +31,12 @@
 |post|/api/users/logout |Разлогиниться|
 |post|/api/posts|Создать пост|
 |put|/api/comments|Создать коммент|
+
+## Развернуть
+
+git clone <br>
+composer install <br>
+mv .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan storage:link
